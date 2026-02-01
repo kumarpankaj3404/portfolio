@@ -30,14 +30,13 @@ const Hero = () => {
                     <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
                         Dynamic WEb MAgic with Next.js
                     </h2>
-                    <TextGenerateEffect duration={2}  
+                    <TextGenerateEffect duration={2}  id={1}
                     words="Transforming Concepts into Seemless User Experience" className='text-center text-[60px] md:text-5xl lg:text-8xl' />
                     <p className='text-center'>Hi, I&apos;m Pankaj Kumar, a Full Stack Web Developer
                     </p>
                     <a href='#about'>
                         < MagicButton title="Show my work" position='right' icon={<FaLocationArrow/>} />
                     </a>
-
                 </div>
             </div>
 
