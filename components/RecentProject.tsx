@@ -11,12 +11,9 @@ const RecentProject = () => {
                 recent project
             </span>
         </h1>
-        {/* Added larger vertical gap and removed 'items-center' to prevent vertical shifting during hover */}
-        <div className='flex flex-wrap justify-center gap-x-40 gap-y-8  mt-1 '>
+        <div className='flex flex-wrap justify-center lg:gap-x-40 lg:gap-y-8  mt-1  '>
             {projects.map(({id, title, des, img, iconLists, link}) => (
-                /* 1. Changed width to sm:w-[570px] to accommodate the [30rem] card + padding.
-                   2. Increased min-height to ensure 3D tilt doesn't overlap rows.
-                */
+                
                 <div 
                     key={id} 
                 >
