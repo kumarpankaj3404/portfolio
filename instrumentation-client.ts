@@ -17,6 +17,8 @@ Sentry.init({
     }),
     Sentry.replayIntegration(),
   ],
+  replaysSessionSampleRate: 0.1, // This sets the sample rate at 10%. You may want to change it to 100% while in development and then sample at a lower rate in production.
+  replaysOnErrorSampleRate: 1.0, // This sets the sample rate to 100% for sessions that have an error. You may want to adjust this in production.
   // Enable sending user PII (Personally Identifiable Information)
   // https://docs.sentry.io/platforms/javascript/guides/nextjs/configuration/options/#sendDefaultPii
   sendDefaultPii: true,
