@@ -3,14 +3,14 @@ import { link } from "fs";
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Approach", link: "#approach" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I build scalable, production-ready MERN stack applications",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -20,7 +20,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Flexible with time zones & ready for global remote work",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -51,17 +51,17 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently mastering Data Structures & Algorithms",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+    imgClassName: "absolute right-0 -bottom-5 md:w-96 w-80   ",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "/b52.svg",
     spareImg: "/grid.svg",
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Ready to add value to your engineering team?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1 ",
     imgClassName: "",
@@ -76,8 +76,8 @@ export const projects = [
     id: 1,
     title: "Unimart - E-commerce Website",
     des: "Unimart is a comprehensive e-commerce platform built with React, Tailwind CSS and Node.js with MongoDB as the database. ",
-    img: "/unimart2.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    img: "/Unimart.png",
+    iconLists: ["/re.svg", "/tail.svg", "/node.svg", "/mongo.svg","/postman.svg"],
     link: "https://unimart-asap.vercel.app/",
   },
   {
@@ -85,7 +85,7 @@ export const projects = [
     title: "Bond and Bites",
     des: "Bond and Bites is a restaurant order management app built with React.js, Tailwind CSS, Express.js, and Cloudinary for image management.",
     img: "/bond&bites.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/node.svg", "/mongo.svg","/cloud.svg"],
     link: "https://github.com/kumarpankaj3404/Resturant-Frontend",
   },
   {
@@ -93,7 +93,7 @@ export const projects = [
     title: "Recipe Finder",
     des: "Recipe Finder is a modern React application that allows users to discover, browse, and save their favorite recipes.",
     img: "/recipe.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/re.svg", "/tail.svg","/js.svg","/api.svg"],
     link: "https://recipe-finder-pankaj.vercel.app/",
   },
   {

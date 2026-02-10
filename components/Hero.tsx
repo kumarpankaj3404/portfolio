@@ -10,8 +10,9 @@ const Hero = () => {
   return (
     <div className='pb-20 pt-36'>
         <div>
-            <Spotlight className='-top-40 -left-10  h-[100sh]' fill="white"/>
-            <Spotlight className='top-10 -right-250  h-[80vh] ' fill="white"/>
+            <Spotlight className='-top-40 -left-10  md:-left-32 md:-top-20 h-screen' fill="white"/>
+            <Spotlight className='top-10 left-full h-[80vh] w-[50vw]' fill="purple"/>
+            <Spotlight className='top-28 left-80 h-[80vh] w-[50vw]' fill="blue"/>
         </div>
         <div className="absolute top-0 left-0 flex h-200 w-full items-center justify-center bg-white dark:bg-black">
             <div
@@ -25,11 +26,8 @@ const Hero = () => {
             <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white mask-[radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black "/>
             </div>
 
-            <div className='flex justify-center relative my-20 z-10'>
+            <div className='flex justify-center relative  mb-20 z-10'>
                 <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center '>
-                    <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
-                        Dynamic WEb MAgic with Next.js
-                    </h2>
                     <TextGenerateEffect duration={2}  id={1}
                     words="Transforming Concepts into Seemless User Experience" className='text-center text-[60px] md:text-5xl lg:text-8xl' />
                     <p className='text-center'>Hi, I&apos;m Pankaj Kumar, a Full Stack Web Developer

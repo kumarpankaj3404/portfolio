@@ -13,7 +13,7 @@ const Grid = () => {
             {/* Left Side: Description */}
             <div className="flex-1 max-w-2xl">
                 <TextGenerateEffect 
-                    duration={0.5} 
+                    duration={1.5} 
                     filter={true} 
                     words="I architect high-performance, full-stack applications that bridge the gap between complex logic and seamless user experiences." 
                     className='text-left text-[20px] md:text-2xl lg:text-3xl mt-5 text-white/70 transition'  
