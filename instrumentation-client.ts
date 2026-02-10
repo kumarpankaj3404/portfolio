@@ -15,6 +15,7 @@ Sentry.init({
       // Additional SDK configuration goes in here, for example:
       colorScheme: "dark",
     }),
+    Sentry.replayIntegration(),
   ],
   // Enable sending user PII (Personally Identifiable Information)
   // https://docs.sentry.io/platforms/javascript/guides/nextjs/configuration/options/#sendDefaultPii
