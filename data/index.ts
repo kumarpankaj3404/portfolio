@@ -98,11 +98,11 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Recipe Finder",
-    des: "Recipe Finder is a modern React application that allows users to discover, browse, and save their favorite recipes.",
-    img: "/recipe.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "Dojo Blog",
+    des: "Dojo Blog is a modern React application that allows users to discover, browse, and save their favorite blog posts.",
+    img: "/dojo.png",
+    iconLists: ["/re.svg", "/tail.svg","/js.svg"],
+    link: "https://dojo-blog-sage.vercel.app/",
   },
 ];
 
