@@ -78,7 +78,7 @@ export const projects = [
     des: "Unimart is a comprehensive e-commerce platform built with React, Tailwind CSS and Node.js with MongoDB as the database. ",
     img: "/Unimart.png",
     iconLists: ["/re.svg", "/tail.svg", "/node.svg", "/mongo.svg","/postman.svg"],
-    link: "https://unimart-asap.vercel.app/",
+    link: "https://unimart.pankajkumar.app/",
   },
   {
     id: 2,
