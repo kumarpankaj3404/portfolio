@@ -54,7 +54,7 @@ export const gridItems = [
     title: "Currently mastering Data Structures & Algorithms",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 -bottom-5 md:w-96 w-80   ",
+    imgClassName: "absolute right-0 -bottom-5 md:w-96 w-80  max-md:-bottom-28  max-md:-right-25",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b52.svg",
     spareImg: "/grid.svg",
