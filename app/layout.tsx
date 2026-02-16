@@ -52,6 +52,16 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "WebSite",      
+        "name": "Pankaj Kumar",
+        "url": "https://pankajkumar.app",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://pankajkumar.app/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
         "@type": "Person",
         "name": "Pankaj Kumar",
         "url": "https://pankajkumar.app",
