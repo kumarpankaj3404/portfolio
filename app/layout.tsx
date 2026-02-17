@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     title: "Pankaj Kumar | Full-Stack MERN Developer",
     description: "Portfolio of Pankaj Kumar, a Full-Stack MERN Developer specializing in React, Next.js, and AWS.",
     url: "https://pankajkumar.app",
-    siteName: "Pankaj Kumar Portfolio",
+    siteName: "Pankaj Kumar",
     type: "website",
     images: [
       {
