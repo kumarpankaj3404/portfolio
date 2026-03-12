@@ -75,35 +75,35 @@ export const projects = [
   {
     id: 1,
     title: "Unimart - E-commerce Website",
-    des: "Unimart is a comprehensive e-commerce platform built with React, Tailwind CSS and Node.js with MongoDB as the database. ",
+    des: "Unimart is a full-stack e-commerce platform engineered with React, Node.js, and MongoDB, featuring a responsive Tailwind CSS UI and secure payment integration for a complete online shopping experience.",
     img: "/Unimart.png",
     iconLists: ["/re.svg", "/tail.svg", "/node.svg", "/mongo.svg","/postman.svg"],
-    link: "https://unimart.pankajkumar.app/",
+    link: "https://unimart.pankajkumar.app",
   },
   {
     id: 2,
+    title: "Study Solutions AI Educational Platform", 
+    des: "Study Solutions is a real-time AI-powered educational platform built with Next.js, React, and Supabase, integrating GPT-4, Deepgram, and ElevenLabs via Vapi SDK for seamless voice-based conversational tutoring.", // [cite: 83, 84]
+    img: "/studysolution.png",
+    iconLists: ["/next.svg", "/re.svg", "/supa.svg", "/c.svg", "/api.svg"],
+    link: "https://studysolution.pankajkumar.app"
+  },
+  {
+    id: 3,
     title: "Bond and Bites",
-    des: "Bond and Bites is a restaurant order management app built with React.js, Tailwind CSS, Express.js, and Cloudinary for image management.",
+    des: "Bond and Bites is a robust restaurant management system built with the MERN stack and Cloudinary, streamlining order processing and menu management with a highly responsive, user-friendly interface.",
     img: "/bond&bites.png",
     iconLists: ["/re.svg", "/tail.svg", "/node.svg", "/mongo.svg","/cloud.svg"],
     link: "https://github.com/kumarpankaj3404/Resturant-Frontend",
   },
   {
-    id: 3,
+    id: 4,
     title: "Recipe Finder",
-    des: "Recipe Finder is a modern React application that allows users to discover, browse, and save their favorite recipes.",
+    des: "Recipe Finder is an interactive culinary application developed with React and Tailwind CSS, leveraging external APIs to allow users to effortlessly discover, filter, and save their favorite global recipes.",
     img: "/recipe.png",
     iconLists: ["/re.svg", "/tail.svg","/js.svg","/api.svg"],
     link: "https://recipe-finder-pankaj.vercel.app/",
-  },
-  {
-    id: 4,
-    title: "Dojo Blog",
-    des: "Dojo Blog is a modern React application that allows users to discover, browse, and save their favorite blog posts.",
-    img: "/dojo.png",
-    iconLists: ["/re.svg", "/tail.svg","/js.svg"],
-    link: "https://dojo-blog-sage.vercel.app/",
-  },
+  }
 ];
 
 

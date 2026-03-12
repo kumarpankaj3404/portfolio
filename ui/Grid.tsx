@@ -9,17 +9,17 @@ const Grid = () => {
     <section id='about'>
         <TextGenerateEffect duration={1}  
                     words="About Me" className='text-center text-[30px] md:text-3xl lg:text-4xl mt-20'  />
-        <div className="flex flex-col lg:flex-row items-center justify-center  gap-10 px-5">
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-10 px-5">
             {/* Left Side: Description */}
             <div className="flex-1 max-w-2xl">
                 <TextGenerateEffect 
                     duration={1.5} 
                     filter={true} 
-                    words="I architect high-performance, full-stack applications that bridge the gap between complex logic and seamless user experiences." 
+                    words="I engineer scalable, real-time, and AI-driven full-stack applications that bridge the gap between complex logic and seamless user experiences." 
                     className='text-left text-[20px] md:text-2xl lg:text-3xl mt-5 text-white/70 transition'  
                 />
                 <p className='text-left text-lg mt-6 text-neutral-300'>
-                    I&apos;m a MERN stack developer and LPU student with an 8.19 CGPA. I specialize in building production-ready applications using TypeScript and Tailwind CSS From architecting real-time delivery systems like UniMart with Socket.io to deploying scalable solutions on AWS, I create high-performance UIs that deliver seamless user experiences.
+                    I&apos;m a Computer Science engineering student at Lovely Professional University with an 8.19 CGPA. As a Full-Stack Developer, I specialize in the MERN stack, Next.js, TypeScript, and AWS cloud deployment. I thrive on building production-ready systems—from architecting real-time delivery tracking platforms like Unimart using Socket.IO to engineering voice-first AI educational tools like Study Solutions. Backed by a strong foundation in Data Structures and Algorithms with 200+ LeetCode problems solved and a Gold Badge in Java from HackerRank, I focus on writing clean, optimized code that delivers impactful results.
                 </p>
                 
                 <div className="mt-8 flex gap-4">
@@ -28,7 +28,7 @@ const Grid = () => {
                     target="_blank" 
                     rel="noopener noreferrer"
                     >
-                        <button className="px-6 py-2 bg-purple text-white/90 rounded-lg font-bold cursor-pointer">
+                        <button className="px-6 py-2 bg-purple text-white/90 rounded-lg font-bold cursor-pointer hover:bg-black-100 border hover:border-purple transition-colors duration-300">
                             Download CV
                         </button>
                     </a>

@@ -15,21 +15,42 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pankaj Kumar | Full-Stack MERN Developer | LPU CSE",
-  description: "Portfolio of Pankaj Kumar, a Full-Stack MERN Developer with 8.19 CGPA, AWS Cloud certification, and 150+ LeetCode problems solved.",
-  alternates: {
-    canonical: "https://pankajkumar.app",
+  metadataBase: new URL("https://pankajkumar.app"),
+  title: {
+    default: "Pankaj Kumar | Full-Stack MERN Developer | LPU CSE",
+    template: "%s | Pankaj Kumar",
   },
-  keywords: ["MERN stack", "Full-Stack Developer", "Pankaj Kumar", "LPU CSE", "AWS Certified", "React", "Next.js", "Portfolio", "Web Developer"],
+  description: "Portfolio of Pankaj Kumar, a Full-Stack MERN Developer with 8.19 CGPA, AWS Cloud certification, and 150+ LeetCode problems solved.",
+  authors: [{ name: "Pankaj Kumar", url: "https://pankajkumar.app" }],
+  creator: "Pankaj Kumar",
+  publisher: "Pankaj Kumar",
+  alternates: {
+    canonical: "/",
+  },
+  keywords: [
+    "MERN stack",
+    "Full-Stack Developer",
+    "Pankaj Kumar",
+    "LPU CSE",
+    "AWS Certified",
+    "React",
+    "Next.js",
+    "Portfolio",
+    "Web Developer",
+    "JavaScript",
+    "TypeScript",
+    "Tailwind CSS",
+  ],
   openGraph: {
     title: "Pankaj Kumar | Full-Stack MERN Developer",
     description: "Portfolio of Pankaj Kumar, a Full-Stack MERN Developer specializing in React, Next.js, and AWS.",
     url: "https://pankajkumar.app",
     siteName: "Pankaj Kumar",
+    locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://pankajkumar.app/pankaj2.png", // Assuming this image exists and is appropriate
+        url: "/pankaj2.png",
         width: 1200,
         height: 630,
         alt: "Pankaj Kumar Portfolio",
@@ -40,7 +61,24 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Pankaj Kumar | Full-Stack MERN Developer",
     description: "Check out my portfolio! I build scalable MERN stack applications.",
-    images: ["https://pankajkumar.app/pankaj2.png"],
+    images: ["/pankaj2.png"],
+    creator: "@kumarpankaj3404", 
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  icons: {
+    icon: "/favicon2.png", // Ensure you add this file to public/
+    shortcut: "/favicon2.png",
+    apple: "/favicon2.png",
   },
 };
 
@@ -96,16 +134,14 @@ export default function RootLayout({
 
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
-      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         suppressHydrationWarning
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"

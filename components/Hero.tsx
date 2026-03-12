@@ -32,7 +32,7 @@ const Hero = () => {
                     words="Transforming Concepts into Seemless User Experience" className='text-center text-[60px] md:text-5xl lg:text-8xl' />
                     <p className='text-center'>Hi, I&apos;m Pankaj Kumar, a Full Stack Web Developer
                     </p>
-                    <a href='#about'>
+                    <a href='#projects'>
                         < MagicButton title="Show my work" position='right' icon={<FaLocationArrow/>} />
                     </a>
                 </div>
